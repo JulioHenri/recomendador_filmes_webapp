@@ -4,7 +4,7 @@ import pickle
 import numpy as np
 import streamlit as st
 
-path = "C:/Users/julio/OneDrive/Área de Trabalho/deploy_ml_project/deploy"
+path = r"C:\Users\julio\OneDrive\Documentos\deploy_ml_project\deploy"
 os.chdir(path)
 
 st.set_page_config(page_title="Film Recommendation",
